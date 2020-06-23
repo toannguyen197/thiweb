@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bai 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-Left">
+            <div class="Login">
+                <h1>Thông tin đăng nhập</h1>
+                <div class="form-Group">
+                    <label for="tenDangNhap">Tên Đăng Nhập: </label>
+                    <input type="text" id="txtTenDangNhap">
+                </div>
+                <div class="form-Group">
+                    <label for="matKhau">Mật Khẩu: </label>
+                    <input type="password" id="txtMatKhau">
+                </div>
+                <div class="form-Group">
+                    <label for="matKhau">Nhập Lại Mật Khẩu: </label>
+                    <input type="password" id="txtNhapLaiMatKhau">
+                </div>
+            </div>
+
+            <div class="User">
+                <h1 style="border-top: 1px solid rgb(214, 214, 214);">Thông tin Cá Nhân</h1>
+                <div class="form-Group">
+                    <label for="hoTen">Họ Tên Khách Hàng: </label>
+                    <input type="text" id="txtHoTen">
+                </div>
+                <div class="form-Group">
+                    <label for="ngaythangnamsinh">Ngày Sinh: </label>
+                    <select name="NgaySinh" id="ngaySinh"></select>
+                    /
+                    <select name="ThangSinh" id="thangSinh"></select>
+                    /
+                    <select name="NamSinh" id="namSinh"></select>
+                </div>
+                <div class="form-Group">
+                    <label for="email">Email: </label>
+                    <input type="text" id="txtEmail">
+                </div>
+                <div class="form-Group">
+                    <label for="gender">Giới Tính: </label>
+                    <input type="radio" name="genderS" value="Male" checked>Male
+                    <input type="radio" name="genderS" value="Female">Female
+                </div>
+                <div class="form-Group">
+                    <label for="diaChi">Địa Chỉ: </label>
+                    <input type="text" name="diaChi" id="txtDiaChi" style="overflow: auto;">
+                </div>
+                <div class="form-Group">
+                    <label for="phone">Điện Thoại: </label>
+                    <input type="text" id="txtDienThoai">
+                </div>
+            </div>
+
+            <div class="btnSubmit">
+                <input type="submit" name="Submit" id="btnSubmit">
+            </div>
+
+        </div>
+
+        <div class="content-Right">
+            <h1>Hồ Sơ Khách Hàng</h1>
+            <div class="content-Submit" id="outPutSubmit">
+                
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./javasripts.js" ></script>        
+</body>
+</html>
